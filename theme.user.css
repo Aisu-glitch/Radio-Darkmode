@@ -1,22 +1,16 @@
 /* ==UserStyle==
-@name           Radio theme
-@author         Aisu
-@version     	0.3.5
-@author       	Dario Busia
-@license      	MIT
-@preprocessor 	stylus
-@name          Stylus Theme
-@description   A theme based on the Stylus logo
-@version       0.9.4
-@author        Randy W. Sims <simsrw73@gmail.com>
+@name          Radio theme
+@author        Aisu
+@version       0.0.1
 @license       MIT
+@preprocessor  stylus
 @namespace     https://github.com/Aisu-glitch
 @homepageURL   https://github.com/Aisu-glitch/Radio-Darkmode
 @supportURL    https://github.com/Aisu-glitch/Radio-Darkmode/issues
-@updateURL     https://github.com/Aisu-glitch/Radio-Darkmode/raw/master/release/theme.css
+@updateURL     https://github.com/Aisu-glitch/Radio-Darkmode/raw/Master/release/theme.user.css
 ==/UserStyle== */
 
-@-moz-document domain(radiosonline.be)
+@-moz-document domain(radiosonline.be),
 @-moz-document domain(internetradiouk.com)
 	.ltr
 		background: #111 !important
