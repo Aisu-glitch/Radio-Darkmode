@@ -9,8 +9,7 @@
 @supportURL    https://github.com/Aisu-glitch/Radio-Darkmode/issues
 @updateURL     https://github.com/Aisu-glitch/Radio-Darkmode/raw/Master/release/theme.user.css
 ==/UserStyle== */
-@-moz-document url("radiosonline.be"),
-@-moz-document url("internetradiouk.com")
+@-moz-document domain("internetradiouk.com"), domain("radiosonline.be")
 	.ltr
 		background: #111 !important
 	
