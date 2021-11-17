@@ -5,8 +5,6 @@
 @author       	Dario Busia
 @license      	MIT
 @preprocessor 	stylus
-==/UserStyle== */
-/* ==UserStyle==
 @name          Stylus Theme
 @description   A theme based on the Stylus logo
 @version       0.9.4
@@ -18,13 +16,13 @@
 @updateURL     https://github.com/Aisu-glitch/Radio-Darkmode/raw/master/release/theme.css
 ==/UserStyle== */
 
-.ltr {
-	background: #111 !important;
-}
-
-.head {
-	* {
-		color: #02ebff; !important;
-	}
-	background: #333 !important;
-}
+@-moz-document domain(radiosonline.be)
+@-moz-document domain(internetradiouk.com)
+	.ltr
+		background: #111 !important
+	
+	.head
+		*
+			color: #02ebff; !important
+		
+		background: #333 !important
