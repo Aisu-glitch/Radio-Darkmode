@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name           Radio theme
+@author         Aisu
+@version     	0.3.5
+@author       	Dario Busia
+@license      	MIT
+@preprocessor 	stylus
+==/UserStyle== */
+/* ==UserStyle==
+@name          Stylus Theme
+@description   A theme based on the Stylus logo
+@version       0.9.4
+@author        Randy W. Sims <simsrw73@gmail.com>
+@license       MIT
+@namespace     https://github.com/Aisu-glitch
+@homepageURL   https://github.com/Aisu-glitch/Radio-Darkmode
+@supportURL    https://github.com/Aisu-glitch/Radio-Darkmode/issues
+@updateURL     https://github.com/Aisu-glitch/Radio-Darkmode/raw/master/release/theme.css
+==/UserStyle== */
+
+.ltr {
+	background: #111 !important;
+}
+
+.head {
+	* {
+		color: #02ebff; !important;
+	}
+	background: #333 !important;
+}
